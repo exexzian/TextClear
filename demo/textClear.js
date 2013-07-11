@@ -13,7 +13,7 @@
  */
 
 
-; (function($) {
+; $(function() {
   $.fn.textClear = function() {
 		var txtVal;
 		$(this).on({
@@ -34,4 +34,4 @@
 			}
 		});
 	}
-})(jQuery);
+});
