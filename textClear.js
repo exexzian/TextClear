@@ -1,3 +1,18 @@
+/* ===================================================
+ * textClear.js v0.0.1
+ * jQuery Plugin to clear input field text on fly - like as provided in Internet Explorer 10
+ * 
+ *==========================================================================================
+ * The MIT License (MIT)
+ * 
+ * Copyright(c)2013 Exex Zian
+ * 
+ * =========================================================================================
+ * Requires: textClearStyle.css and jQuery.js
+ * =========================================================================================
+ */
+
+
 ; (function($) {
   $.fn.textClear = function() {
 		var txtVal;
