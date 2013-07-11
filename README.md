@@ -5,7 +5,9 @@ jQuery Plugin to clear input field text on fly - like as provided in Internet Ex
 Requires - textClearStyle.css and jquery lib(>1.6)
 
 <hr size="3"/>
-**For Demo:** <a href="http://exexzian.github.io/TextClear/demo/TextClearDemo.html"> click here </a>
+**Website:** http://exexzian.github.io/TextClear/ <br/>
+**jQuery Plugin Link:**: http://plugins.jquery.com/textClear/ <br/>
+**For Demo:** <a href="http://exexzian.github.io/TextClear/demo/TextClearDemo.html"> click here </a><br/>
 <hr size="3"/>
 **Features**:<br/>
 ➊ ▏On keyPress it provides ✘ image on the extreme right corner of the input field       to clear out the text <br/>
