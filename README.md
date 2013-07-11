@@ -18,6 +18,11 @@ Requires - textClearStyle.css and jquery lib(>1.6)
 <img src="http://s20.postimg.org/5rd0o6vtp/demo.png" title="Text Clear Demo" />
 
 <hr size="3"/>
+
+**Note:** It overrides the IE-10's default ✘ image so as to offer the same look and feel on all browsers.
+
+<hr size="3"/>
+
 **Usage**:<br/>
 
 ✔ Add <code>noTextClear</code> class in all those **text** input fields in which you want to apply the plugin effect like as follows:<br/>
