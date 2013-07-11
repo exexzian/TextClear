@@ -34,6 +34,7 @@
     "homepage": "http://exexzian.github.io/TextClear/",
     "docs": "https://github.com/exexzian/TextClear",
     "download": "http://exexzian.github.io/TextClear/",
+    "demo": "http://exexzian.github.io/TextClear/demo/TextClearDemo.html",
     "dependencies": {
         "jquery": ">=1.6"
     }
