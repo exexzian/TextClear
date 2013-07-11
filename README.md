@@ -13,8 +13,8 @@ Requires - textClearStyle.css and jquery lib(>1.6)
 ➌ ▏Cross Image changeable via CSS <br/>
 ➍ ▏Ohhh!! 4th feature provdies 4 fancy cross images for usage under **images** directory <br/>
 
+<img src="http://s20.postimg.org/5rd0o6vtp/demo.png" title="Text Clear Demo" />
 
-![Text Clear](/http://s20.postimg.org/5rd0o6vtp/demo.png)
 <hr size="3"/>
 **Usage**:<br/>
 
