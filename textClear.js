@@ -1,5 +1,5 @@
 /* ===================================================
- * textClear.js v0.0.1
+ * textClear.js v0.0.2
  * jQuery Plugin to clear input field text on fly - like as provided in Internet Explorer 10
  * 
  *==========================================================================================
@@ -15,7 +15,6 @@
 
 ; (function($) {
   $.fn.textClear = function() {
-		var txtVal;
 		$(this).on({
 			'keypress' : function(e) {
 				$(this).addClass('crossClear');
