@@ -1,0 +1,40 @@
+{
+    "name": "TextClear",
+    "title": "Text Clear",
+    "description": "jQuery Plugin to clear input field text on fly - like as provided in Internet Explorer 10 
+",
+    "keywords": [
+        "clear",
+        "TextClear",
+  	"InputClear",
+		"DeleteText",
+		"reset"
+		
+    ],
+    "version": "0.0.1",
+    "author": {
+        "name": "exex zian",
+        "url": "https://github.com/exexzian/TextClear/blob/master/author.txt"
+    },
+    "maintainers": [
+        {
+            "name": "exex zian",
+            "email": "genex4@gmail.com",
+            "url": "https://github.com/exexzian",
+			"twitter": "@exexzian"
+        }
+    ],
+    "licenses": [
+        {
+            "type": "MIT",
+            "url": "https://github.com/exexzian/TextClear/blob/master/license.md"
+        }
+    ],
+	"bugs": "https://github.com/exexzian/TextClear/issues",
+    "homepage": "http://exexzian.github.io/TextClear/",
+    "docs": "https://github.com/exexzian/TextClear",
+    "download": "http://exexzian.github.io/TextClear/",
+    "dependencies": {
+        "jquery": ">=1.6"
+    }
+}
