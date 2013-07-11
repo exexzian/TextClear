@@ -8,3 +8,6 @@
 .noTextClear {	
 	padding-right: 1%;
 }
+input::-ms-clear {
+    display: none;
+}
