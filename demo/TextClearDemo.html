@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+
+		<title>TextClearDemo</title>
+		<meta name="description" content="" />
+		<meta name="author" content="exex zian" />
+
+		<script src="lib/jquery.min.js" type="text/javascript"></script>
+		<link rel="stylesheet" href="TextClearStyle.css" type="text/css"/>
+
+		<script src="textClear.js"></script>
+
+		<style type="text/css">
+		body{
+			background-color: #bebd94;
+		}
+			#wrapper {
+				font-size: medium;
+				font-weight: bold;
+				padding: 5px;
+				border: 5px solid #808080;
+				border-radius: 3px;
+				position: absolute;
+				left: 30%;
+				top: 30%;
+				width: 500px;
+				background: #a9db80; /* Old browsers */
+				background: -moz-linear-gradient(top,  #a9db80 0%, #96c56f 100%); /* FF3.6+ */
+				background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#a9db80), color-stop(100%,#96c56f)); /* Chrome,Safari4+ */
+				background: -webkit-linear-gradient(top,  #a9db80 0%,#96c56f 100%); /* Chrome10+,Safari5.1+ */
+				background: -o-linear-gradient(top,  #a9db80 0%,#96c56f 100%); /* Opera 11.10+ */
+				background: -ms-linear-gradient(top,  #a9db80 0%,#96c56f 100%); /* IE10+ */
+				background: linear-gradient(to bottom,  #a9db80 0%,#96c56f 100%); /* W3C */
+				filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a9db80', endColorstr='#96c56f',GradientType=0 ); /* IE6-9 */
+			}
+
+			h2 {
+				text-align: center;
+				text-decoration: underline;
+			}
+			span {
+				color: #808080;
+				font-family: Terminal;
+			}
+			span:hover {
+				color: #008040;
+				cursor: pointer;
+			}
+			#desc{
+				text-align: center;
+				font-style: italic;
+				color: #000000;
+				font-size: medium;
+			}
+
+		</style>
+
+		<script type="text/javascript" charset="utf-8">
+			$(function() {
+				$('.noTextClear').textClear();
+			});
+		</script>
+
+	</head>
+
+	<body>
+		<h2><span> TextClear </span>- Clear Input Field Text on Fly <br />
+			<span id="desc"> ( jQuery Plugin to Facilitate Internet Explorer 10 like Input Clear Option )</span>
+		</h2><br>
+		
+		<div id="wrapper">
+			<hr size="4"/>
+			Name:
+			<input id="txt" class="noTextClear" type="text" />
+			<br />
+			Email:
+			<input id="email" class="noTextClear" type="email"/>
+			<br />
+			Telephone No.:
+			<input id="tel" class="noTextClear" type="tel" />
+			<br />
+			Password:
+			<input type="password" class="noTextClear" />
+			<hr size="4"/>
+
+		</div>
+	</body>
+</html>

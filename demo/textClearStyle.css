@@ -1,0 +1,10 @@
+.crossClear {
+	background-image: url('images/roughCross100.png');
+	background-repeat: no-repeat;
+	background-position: right center;
+	background-size: 10% 90%;
+	padding-right: 1%;
+}
+.noTextClear {	
+	padding-right: 1%;
+}
