@@ -1,4 +1,6 @@
 current version- 0.0.3
 
 change log:
-o.0.2 -> 0.0.3 { Fixed IE10 default clear override issue }
+
+✔ 0.0.2 ► 0.0.4
+    -Fixed IE10 default clear override issue }
