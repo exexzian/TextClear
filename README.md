@@ -45,8 +45,8 @@ Requires - textClearStyle.css and jquery lib(>1.6)
 ```
 <html>
 <head>
-	<script type="text/javascript" src="jquery.min.js"></script>
-	<script type="text/javascript" src="clearme.min.js"></script>
+	<script type="text/javascript" src="lib/jquery.min.js"></script>
+	<script type="text/javascript" src="textClear.js"></script>
     <link rel="stylesheet" href="textClearStyle.css" type="text/css"/>
 </head>
 <body>
