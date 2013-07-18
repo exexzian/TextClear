@@ -11,11 +11,11 @@ Requires - textClearStyle.css and jquery lib(>1.6)
 **For Demo:** <a href="http://exexzian.github.io/TextClear/demo/TextClearDemo.html"> click here </a><br/>
 <hr size="3"/>
 **Features**:<br/>
-b
- bOn keyPress it provides b image on the extreme right corner of the input field       to clear out the text <br/>
-b bHandles multiple input fields <br/>
-b bCross Image changeable via CSS <br/>
-b bOhhh!! 4th feature provdies 4 fancy cross images for usage under **images** directory <br/>
+
+➊ On keyPress it provides b image on the extreme right corner of the input field       to clear out the text <br/>
+➋ Handles multiple input fields <br/>
+➌ Cross Image changeable via CSS <br/>
+➍Ohhh!! 4th feature provdies 4 fancy cross images for usage under **images** directory <br/>
 
 <img src="http://s20.postimg.org/5rd0o6vtp/demo.png" title="Text Clear Demo" />
 
@@ -27,7 +27,7 @@ b bOhhh!! 4th feature provdies 4 fancy cross images for usage under **images
 
 **Usage**:<br/>
 
-b Add <code>noTextClear</code> class in all those **text** input fields in which you want to apply the plugin effect like as follows:<br/>
+✔  Add <code>noTextClear</code> class in all those **text** input fields in which you want to apply the plugin effect like as follows:<br/>
 ```
 <body>
     ...
@@ -42,8 +42,8 @@ b Add <code>noTextClear</code> class in all those **text** input fields in whi
 
 ```
 
-b Inside HTML Head Tag add path to jquery and <code>textClear.js</code> and supporting stylesheet <code>textClearStyle.css</code>. <br/>
-    b  You may need to change the paths depending on your folder structure.
+✔  Inside HTML Head Tag add path to jquery and <code>textClear.js</code> and supporting stylesheet <code>textClearStyle.css</code>. <br/>
+   ■   You may need to change the paths depending on your folder structure.
 ```
 <html>
 <head>
@@ -56,12 +56,12 @@ b Inside HTML Head Tag add path to jquery and <code>textClear.js</code> and su
 </body>
 </html>
 ```
-b Now Call <code>textClear()</code> in your JavaScript file using <code>$('.noTextClear')</code> selector as:<br/>
+✔  Now Call <code>textClear()</code> in your JavaScript file using <code>$('.noTextClear')</code> selector as:<br/>
    <code> $('.noTextClear').textClear(); </code>
 
 <hr>
 
-b And to change b image: simply browse inside <code>textClearStyle.css</code> and change its <code>background-image </code> property as follows inside <code> .crossClear </code> class: <br/>
+■ And to change b image: simply browse inside <code>textClearStyle.css</code> and change its <code>background-image </code> property as follows inside <code> .crossClear </code> class: <br/>
 <code> background-image: url('YourImageUrl'); </code> <br/>
  b  And Of course you can choose other images provided in images directory as well
  
