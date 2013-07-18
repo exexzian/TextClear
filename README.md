@@ -12,7 +12,7 @@ Requires - textClearStyle.css and jquery lib(>1.6)
 <hr size="3"/>
 **Features**:<br/>
 
-➊ On keyPress it provides b image on the extreme right corner of the input field       to clear out the text <br/>
+➊ On keyPress it provides ✘  image on the extreme right corner of the input field       to clear out the text <br/>
 ➋ Handles multiple input fields <br/>
 ➌ Cross Image changeable via CSS <br/>
 ➍Ohhh!! 4th feature provdies 4 fancy cross images for usage under **images** directory <br/>
@@ -21,7 +21,7 @@ Requires - textClearStyle.css and jquery lib(>1.6)
 
 <hr size="3"/>
 
-**Note:** It overrides the IE-10's default b image so as to offer the same look and feel on all browsers.
+**Note:** It overrides the IE-10's default ✘  image so as to offer the same look and feel on all browsers.
 
 <hr size="3"/>
 
@@ -61,9 +61,9 @@ Requires - textClearStyle.css and jquery lib(>1.6)
 
 <hr>
 
-■ And to change b image: simply browse inside <code>textClearStyle.css</code> and change its <code>background-image </code> property as follows inside <code> .crossClear </code> class: <br/>
+✔  And to change ✘  image: simply browse inside <code>textClearStyle.css</code> and change its <code>background-image </code> property as follows inside <code> .crossClear </code> class: <br/>
 <code> background-image: url('YourImageUrl'); </code> <br/>
- b  And Of course you can choose other images provided in images directory as well
+ ■  And Of course you can choose other images provided in images directory as well
  
 
 
