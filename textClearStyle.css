@@ -4,6 +4,7 @@
 	background-position: right center;
 	background-size: 10% 90%;
 	padding-right: 1%;
+	position: relative;
 }
 .noTextClear {	
 	padding-right: 1%;
