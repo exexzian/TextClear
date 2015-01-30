@@ -14,19 +14,29 @@
 
 
 ; (function($) {
-  $.fn.textClear = function() {
+  $.fn.textClear = function( opts ) {
+  		opts = opts || 0
 		$(this).on({
 			'keypress' : function(e) {
 				$(this).addClass('crossClear');
+				if (opts!=0){
+					$(this).css('background-image','url('+opts.image+')')
+				}
 			},
 			'focusout' : function() {
 				$(this).removeClass('crossClear');
+				if (opts!=0){
+					$(this).css('background-image','none')
+				}
 			},
 			'click' : function(e) {
 				if (($(this).hasClass('crossClear'))) {
 					var mousePosInElement = e.pageX - $(this).position().left;
 					if (mousePosInElement > $(this).width()) {
 						$(this).removeClass('crossClear');
+						if (opts!=0){
+							$(this).css('background-image','none')
+						}
 						$(this).val('');
 					}
 				}
